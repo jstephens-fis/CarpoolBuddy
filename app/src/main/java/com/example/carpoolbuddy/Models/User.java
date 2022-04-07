@@ -14,6 +14,15 @@ public class User {
 
     }
 
+    public User(String uid, String name, String email) {
+        this.uid = uid;
+        this.name = name;
+        this.email = email;
+        userType = "";
+        priceMultiplier = 1;
+        ownedVehicles = new ArrayList<>();
+    }
+
     public User(String uid, String name, String email, String userType, double priceMultiplier, ArrayList<String> ownedVehicles) {
         this.uid = uid;
         this.name = name;

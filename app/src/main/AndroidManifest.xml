@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CarpoolBuddy">
         <activity
-            android:name=".VehiclesInfoActivity"
+            android:name=".Controllers.VehiclesInfoActivity"
             android:exported="false" />
         <activity
-            android:name=".UserProfileActivity"
+            android:name=".Controllers.UserProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".AuthActivity"
+            android:name=".Controllers.AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

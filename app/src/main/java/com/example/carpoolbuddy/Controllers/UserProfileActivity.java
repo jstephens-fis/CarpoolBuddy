@@ -1,4 +1,4 @@
-package com.example.carpoolbuddy;
+package com.example.carpoolbuddy.Controllers;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.carpoolbuddy.R;
+import com.example.carpoolbuddy.User;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 
